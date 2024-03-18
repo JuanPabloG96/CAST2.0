@@ -1,5 +1,0 @@
-# Archivos y carpetas a ignorar
-.env
-vendor/
-composer.json
-composer.lock

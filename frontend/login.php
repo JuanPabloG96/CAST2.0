@@ -14,7 +14,7 @@
 
 <body>
 
-  <form action="" class="form container">
+  <form action="/login" class="form container">
     <div class="mb-3">
       <label for="" class="form-label">Email:</label>
       <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"

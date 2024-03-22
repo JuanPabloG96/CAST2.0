@@ -1,6 +1,7 @@
 <?php
+require __DIR__.'/../vendor/autoload.php';
 // Carga las variables de entorno desde un archivo .env
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ ."/../.env");
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ .'/..');
 $dotenv->load();
 
 // Función de conexión a la base de datos
@@ -15,6 +16,9 @@ function db_connection()
 
     if ($conn->connect_error) {
         die('Connection error: ' . $conn->connect_error);
+    }
+    else{
+        echo 'Connection to data base done';
     }
 
     return $conn;

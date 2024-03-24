@@ -12,12 +12,9 @@ $connection ->close();
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/css/index.css">
-  <title>Pagina de inicio</title>
+  <title>CAST 2.0</title>
 </head>
 <body>
-  <div class="container">prueba</div>
-  <?php
-  echo 'hello world';
-  ?>
+  
 </body>
 </html>

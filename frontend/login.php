@@ -9,7 +9,7 @@
 
 <body>
   <main class="main">
-    <form action="/backend/routes/login.php" method="post" class="form">
+    <form action="../backend/routes/user_login.php" method="post" class="form">
       <div>
         <img src="public/images/uacj_logo.png" alt="uacj logo" width="340px">
       </div>
@@ -17,12 +17,13 @@
       <small>Ingrese su correo y contraseña institucional</small>
       <div class="input_container">
         <label for="email">correo</label>
-        <input type="email" name="email" id="email" placeholder="Ingrese su correo">
+        <input type="email" name="email" id="email" placeholder="Ingrese su correo" required>
       </div>
       <div class="input_container">
         <label for="password">contraseña</label>
-        <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+        <input type="password" name="password" id="password" placeholder="Ingrese su contraseña" required>
       </div>
+      <button type="submit">Iniciar sesión</button>
     </form>
   </main>
 </body>

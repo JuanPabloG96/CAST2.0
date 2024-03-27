@@ -1,11 +1,3 @@
-<?php
-include("./db.php");
-
-$connection = db_connection();
-
-$connection ->close();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +6,6 @@ $connection ->close();
   <title>Pagina de inicio</title>
 </head>
 <body>
-  <h1>hola mundo</h1>
+  
 </body>
 </html>

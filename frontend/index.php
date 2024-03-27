@@ -1,11 +1,3 @@
-<?php
-include("/laragon/www/proyecto_cast/backend/db.php");
-
-$connection = db_connection();
-
-$connection ->close();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
